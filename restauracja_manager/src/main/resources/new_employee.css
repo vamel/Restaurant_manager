@@ -1,0 +1,50 @@
+.tooltip {
+    position: relative;
+    -fx-min-width: 50.0;
+    -fx-max-width: 50.0;
+    -fx-min-height: 50.0;
+    -fx-max-height: 10.0;
+    -fx-show-delay: 0ms;
+    -fx-background-radius: 0.0;
+}
+
+.label {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 15px;
+}
+
+.text-field {
+    -fx-background-color: #69B2E0;
+    -fx-prompt-text-fill: #4F4F4F;
+    -fx-focus-traversable: false;
+    -fx-max-width: 300.0;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.text {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-focus-traversable: false;
+}
+
+.button {
+    -fx-background-color: #60D66A;
+    -fx-background-radius: 0px;
+    -fx-max-width: 100.0;
+    -fx-focus-traversable: false;
+}
+
+.button:hover {
+    -fx-background-color: #5AC763;
+}
+
+#label_text {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 10px;
+}
+
+#vbox {
+    -fx-background-color: #6999E0;
+    -fx-alignment: CENTER;
+    -fx-spacing: 10.0;
+    -fx-padding: 20.0;
+}

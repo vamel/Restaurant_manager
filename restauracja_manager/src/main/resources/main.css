@@ -1,0 +1,157 @@
+.text-field {
+    -fx-background-color: #6CB7E6;
+    -fx-prompt-text-fill: #4F4F4F;
+    -fx-text-fill: black;
+    -fx-focus-traversable: false;
+    -fx-max-width: 300;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.password-field {
+    -fx-background-color: #6CB7E6;
+    -fx-prompt-text-fill: #4F4F4F;
+    -fx-text-fill: black;
+    -fx-focus-traversable: false;
+    -fx-max-width: 300;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.combo-box {
+    -fx-background-color: #97B2C3;
+    -fx-max-width: 100.0;
+    -fx-focus-traversable: false;
+    -fx-border-color: #626D80;
+    -fx-border-insets: -1;
+    -fx-border-width: 1.0;
+}
+
+.combo-box > .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color: #97B2C3;
+    -fx-min-width: 100.0;
+    -fx-border-width: 1.0;
+}
+
+.combo-box > .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell:hover {
+    -fx-background-color: #626D80;
+}
+
+#background {
+    -fx-background-image: url("graphics/background/restaurant.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+    -fx-min-width: 800;
+    -fx-min-height: 600;
+}
+
+#login_checkbox {
+    -fx-arc-width: 0.0;
+    -fx-arc-height: 0.0;
+    -fx-focus-traversable: false;
+    -fx-shadow-highlight-color: transparent;
+}
+
+#login_checkbox:hover {
+    -fx-effect: innershadow( gaussian, rgba( 0.1, 0.1, 0.1, 0.1), 10, 0, 5, 5 );
+}
+
+#login_checkbox:selected {
+    -fx-effect: null;
+}
+
+#login_checkbox > .box {
+    -fx-background-color: #6CB7E6;
+}
+
+#login_checkbox:selected > .box > .mark {
+    -fx-background-color: #000000;
+}
+
+#login_button {
+    -fx-background-color: #97B2C3;
+    -fx-max-width: 100.0;
+    -fx-focus-traversable: false;
+    -fx-border-color: #626D80;
+    -fx-border-insets: -1;
+    -fx-border-width: 1.0;
+}
+
+#login_button:hover {
+    -fx-background-color: #A1BFD1;
+    -fx-effect: innershadow( gaussian, rgba( 0.1, 0.1, 0.1, 0.1), 10, 0, 0, 0);
+}
+
+#first_rectangle
+{
+    -fx-arc-height: 30.0;
+    -fx-arc-width: 30.0;
+    -fx-fill: #6999E0;
+    -fx-stroke: #4B5461;
+    -fx-stroke-width: 1.0;
+}
+
+#second_rectangle
+{
+    -fx-arc-height: 30.0;
+    -fx-arc-width: 30.0;
+    -fx-fill: #6999E0;
+    -fx-stroke: #4B5461;
+    -fx-stroke-width: 1.0;
+}
+
+#label_title {
+    -fx-padding: 0 0 20 0;
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-wrap-text: true;
+    -fx-max-width: 400;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+}
+
+#label_welcome {
+    -fx-font-size: 25px;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+#func_button {
+    -fx-arc-height: 30.0;
+    -fx-arc-width: 30.0;
+    -fx-focus-traversable: false;
+    -fx-min-height: 100.0;
+    -fx-max-height: 100.0;
+    -fx-min-width: 100.0;
+    -fx-max-width: 100.0;
+    -fx-wrap-text: true;
+    -fx-text-alignment: CENTER;
+    -fx-background-radius: 10px;
+    -fx-background-color: #97B2C3;
+    -fx-border-color: #626D80;
+    -fx-border-insets: -1;
+    -fx-border-width: 1.0;
+    -fx-border-radius: 10px;
+}
+
+#func_button:hover {
+    -fx-background-color: #A1BFD1;
+    -fx-effect: innershadow( gaussian, rgba( 0.1, 0.1, 0.1, 0.1), 10, 0, 0, 0);
+}
+
+#logout_button {
+    -fx-focus-traversable: false;
+    -fx-min-height: 50.0;
+    -fx-max-height: 50.0;
+    -fx-min-width: 300.0;
+    -fx-max-width: 300.0;
+    -fx-background-radius: 10px;
+    -fx-background-color: #748196;
+    -fx-border-color: #626D80;
+    -fx-border-insets: -1;
+    -fx-border-width: 1.0;
+    -fx-border-radius: 10px;
+}
+
+#logout_button:hover {
+    -fx-background-color: #8492AB;
+    -fx-effect: innershadow( gaussian, rgba( 0.1, 0.1, 0.1, 0.1), 10, 0, 0, 0);
+}

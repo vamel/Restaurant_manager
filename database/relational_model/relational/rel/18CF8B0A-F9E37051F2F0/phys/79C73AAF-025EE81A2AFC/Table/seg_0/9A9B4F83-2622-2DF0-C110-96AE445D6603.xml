@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RoleClaims" directorySegmentName="seg_0" id="9A9B4F83-2622-2DF0-C110-96AE445D6603">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:58 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DD6B58D5-3112-8987-BCD7-426441273682</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RoleId" id="6227B41E-F187-E9BB-8B0C-62BF3687BC0A">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ClaimType" id="78BF3713-FE45-FBE7-A294-2BF4D29F9900">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ClaimValue" id="81BB58EF-DD03-D15C-A388-4CA5A76FDF99">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="Id" id="CE097E76-851D-7B91-0BDC-7A695E74588F">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_RoleClaims_RoleId" id="5E1D3FBB-0371-2A3C-7588-CFC8EEDF4A24">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_RoleClaims" id="80934DAA-6A73-5F2F-8308-F13690875BBF">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RoleClaims_Roles_RoleId" id="4B18F4FC-14EE-015E-70CB-DFE381550CD6">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_RoleClaims" id="70BE22FD-9739-60DD-23A7-24924D7458EB">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<segment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<existingIndex>80934DAA-6A73-5F2F-8308-F13690875BBF</existingIndex>
+<indexSegment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

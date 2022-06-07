@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SupplierOrders" directorySegmentName="seg_0" id="316A5CA6-D5A2-D51A-3165-8C13A223166F">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:57 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8A274C47-8D50-E04E-1EE3-268560C958C2</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id" id="77973F14-B21D-392E-A70D-85677D8CA909">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="RestaurantId" id="7DD89435-E55A-36DB-B506-6684A782D8D7">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="Date" id="DB35F8ED-82FB-160A-E539-9D04FEDA301B">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="SupplierId" id="EC65C40E-E33E-3BCF-A0FC-05A424576912">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SupplierOrders" id="AAE3250B-E4AA-669B-9942-416BD02C33A0">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_SupplierOrders_SupplierId" id="CDE9DDA7-547E-AFC6-559D-55EFE55A5B08">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_SupplierOrders_RestaurantId" id="E50DD466-B304-D021-816F-F1F4563783A7">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SupplierOrders_Restaurants_RestaurantId" id="889D3964-31F9-AB59-9F85-1133F2762120">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SupplierOrders_Suppliers_SupplierId" id="EDFCD679-2BA5-7DD9-18DB-2889DBA2018D">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SupplierOrders" id="16F9C2F0-9B3D-9B5F-CAAC-A804BBE27B0C">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<existingIndex>AAE3250B-E4AA-669B-9942-416BD02C33A0</existingIndex>
+<indexSegment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

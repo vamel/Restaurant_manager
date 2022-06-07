@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Suppliers" directorySegmentName="seg_0" id="97B12E06-ADA4-1B9E-3051-9E807D2686C6">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:58 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8A274C47-8D50-E04E-1EE3-268560C958C2</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id" id="06B83463-AEA0-3EA8-2199-14FAE3554BA9">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="BankInformation" id="6A4B3D4E-6DFB-966D-1B0A-24FA9B0B7FE0">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="AddressId" id="C575D2D4-F409-F61B-A053-AD6E26DC2E33">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="Name" id="CDB6B45B-3DB0-D82E-DF90-60B13ED9E1E4">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_Suppliers_AddressId" id="6BF00BAC-F8F9-3BA8-B068-2A30DD6323C4">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_Suppliers" id="BE6C134D-DC15-3417-4547-7B4A62570B1D">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_Suppliers_Addresses_AddressId" id="8A4D901B-2142-1530-EA39-F6365110E034">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_Suppliers" id="42450E01-D950-472E-03EC-CC4673ACF5DF">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<existingIndex>BE6C134D-DC15-3417-4547-7B4A62570B1D</existingIndex>
+<indexSegment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

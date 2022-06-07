@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97B12E06-ADA4-1B9E-3051-9E807D2686C6" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="Suppliers">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>Suppliers</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:58 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="06B83463-AEA0-3EA8-2199-14FAE3554BA9">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Suppliers</sourceObjSchema>
+<sourceObjName>Id</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="Name" id="CDB6B45B-3DB0-D82E-DF90-60B13ED9E1E4">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Suppliers</sourceObjSchema>
+<sourceObjName>Name</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BankInformation" id="6A4B3D4E-6DFB-966D-1B0A-24FA9B0B7FE0">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Suppliers</sourceObjSchema>
+<sourceObjName>BankInformation</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AddressId" id="C575D2D4-F409-F61B-A053-AD6E26DC2E33">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Suppliers</sourceObjSchema>
+<sourceObjName>AddressId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="702F0EC1-DB18-3040-753C-B0AB3B1CCD03" referredColumn="D98AE927-65A6-5957-C381-5FA0AD728AB0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42450E01-D950-472E-03EC-CC4673ACF5DF" name="PK_Suppliers">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_Suppliers</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06B83463-AEA0-3EA8-2199-14FAE3554BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BF00BAC-F8F9-3BA8-B068-2A30DD6323C4" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="IX_Suppliers_AddressId">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>IX_Suppliers_AddressId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C575D2D4-F409-F61B-A053-AD6E26DC2E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6C134D-DC15-3417-4547-7B4A62570B1D" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_Suppliers">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_Suppliers</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06B83463-AEA0-3EA8-2199-14FAE3554BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A4D901B-2142-1530-EA39-F6365110E034" name="FK_Suppliers_Addresses_AddressId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C575D2D4-F409-F61B-A053-AD6E26DC2E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="316A5CA6-D5A2-D51A-3165-8C13A223166F" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="SupplierOrders">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>SupplierOrders</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:57 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="77973F14-B21D-392E-A70D-85677D8CA909">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>SupplierOrders</sourceObjSchema>
+<sourceObjName>Id</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="Date" id="DB35F8ED-82FB-160A-E539-9D04FEDA301B">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>SupplierOrders</sourceObjSchema>
+<sourceObjName>Date</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SupplierId" id="EC65C40E-E33E-3BCF-A0FC-05A424576912">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>SupplierOrders</sourceObjSchema>
+<sourceObjName>SupplierId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C481CC12-DB6C-9B9B-A9A5-AB835B1225C4" referredColumn="06B83463-AEA0-3EA8-2199-14FAE3554BA9"/>
+</associations>
+</Column>
+<Column name="RestaurantId" id="7DD89435-E55A-36DB-B506-6684A782D8D7">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>SupplierOrders</sourceObjSchema>
+<sourceObjName>RestaurantId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED658967-FD14-B3D7-8400-FEFD993E5E93" referredColumn="818D0E90-0D9A-FF3B-7CE6-BE62F2A07CE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16F9C2F0-9B3D-9B5F-CAAC-A804BBE27B0C" name="PK_SupplierOrders">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_SupplierOrders</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77973F14-B21D-392E-A70D-85677D8CA909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E50DD466-B304-D021-816F-F1F4563783A7" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="IX_SupplierOrders_RestaurantId">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>IX_SupplierOrders_RestaurantId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD89435-E55A-36DB-B506-6684A782D8D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDE9DDA7-547E-AFC6-559D-55EFE55A5B08" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="IX_SupplierOrders_SupplierId">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>IX_SupplierOrders_SupplierId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC65C40E-E33E-3BCF-A0FC-05A424576912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAE3250B-E4AA-669B-9942-416BD02C33A0" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_SupplierOrders">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_SupplierOrders</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77973F14-B21D-392E-A70D-85677D8CA909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="889D3964-31F9-AB59-9F85-1133F2762120" name="FK_SupplierOrders_Restaurants_RestaurantId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD89435-E55A-36DB-B506-6684A782D8D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDFCD679-2BA5-7DD9-18DB-2889DBA2018D" name="FK_SupplierOrders_Suppliers_SupplierId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC65C40E-E33E-3BCF-A0FC-05A424576912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Menus" directorySegmentName="seg_0" id="082EF2C9-C233-91FA-2F61-071CB5E9DA5E">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:58 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8A274C47-8D50-E04E-1EE3-268560C958C2</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id" id="0D2A9155-F556-CF84-BC28-42FDB42F0C58">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_Menus" id="4E577200-1E11-1C3B-E6BA-982DEC127EB9">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_Menus" id="A71AAF81-6149-11D6-5304-AB444A23AB7E">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<segment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<existingIndex>4E577200-1E11-1C3B-E6BA-982DEC127EB9</existingIndex>
+<indexSegment>F1EF5E46-6FF0-33DF-FE8C-BC1E3A7C6C08</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="UserLogins" directorySegmentName="seg_0" id="9006C32F-3FC0-B146-47BA-0A415F352712">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:57 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DD6B58D5-3112-8987-BCD7-426441273682</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ProviderDisplayName" id="D01D0450-09E0-7DFE-6DA9-C9632072D934">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ProviderKey" id="EC395604-3D2C-AE87-73D4-2C1450BE8188">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="LoginProvider" id="EDA01447-A4F8-29BC-255D-D936B3F24D8B">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="UserId" id="F918A8DB-2D3A-2F86-B23E-9190A2F7D664">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_UserLogins" id="5B19E0CB-818A-729F-485A-2E5A188FF83A">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>57CABE83-6324-D202-8D1E-B70C82D4A5A4</schemaObject>
+<segment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UserLogins_Users_UserId" id="4529E04E-482A-994E-02EA-403F9B527DF4">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_UserLogins" id="5A6E07B8-9E98-7AC7-D57C-DA35C4434F96">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<segment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</segment>
+<tableSpace>B4D5292B-BC89-69DA-4BC9-7D2EC2472A88</tableSpace>
+<existingIndex>5B19E0CB-818A-729F-485A-2E5A188FF83A</existingIndex>
+<indexSegment>A05641B2-2C46-FE2B-4CB9-6291C1ABA8C5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

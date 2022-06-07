@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7A40439-6738-09E2-9FB0-E6ACE05FC652" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="Roles">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>Roles</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:58 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="BF72D54B-5C6E-530E-9D89-79E2061F6D3B">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Roles</sourceObjSchema>
+<sourceObjName>Id</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="Name" id="A6E555AE-7B5B-8D57-2567-09336C29225A">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Roles</sourceObjSchema>
+<sourceObjName>Name</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NormalizedName" id="BF73B8BE-5DC7-8282-73B2-E5F62661CEFA">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Roles</sourceObjSchema>
+<sourceObjName>NormalizedName</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ConcurrencyStamp" id="30113436-C3B2-6F65-32D4-EEDF6FE70862">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Roles</sourceObjSchema>
+<sourceObjName>ConcurrencyStamp</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="391E7943-D615-D2B8-E618-8AE0C7E05CE6" name="PK_Roles">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_Roles</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF72D54B-5C6E-530E-9D89-79E2061F6D3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15B25F43-894D-6325-AA1F-2C2CB3A9DEF0" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_Roles">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_Roles</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF72D54B-5C6E-530E-9D89-79E2061F6D3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E84F71-CBFB-9FD8-433A-A089F611D4FE" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="RoleNameIndex">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>RoleNameIndex</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF73B8BE-5DC7-8282-73B2-E5F62661CEFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

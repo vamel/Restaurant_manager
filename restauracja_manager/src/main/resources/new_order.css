@@ -1,0 +1,84 @@
+.table-view {
+    -fx-background-color: transparent;
+    -fx-focus-traversable: false;
+    -fx-pref-width: 400.0;
+    -fx-pref-height: 300.0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-size: 13px;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(#B2C8E8 0%, #A1B4D1 100%);
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #C4DCFF;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #A9BDDB;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #6A85B2;
+}
+
+.table-view .scroll-bar {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.button {
+    -fx-focus-traversable: false;
+    -fx-pref-width: 200.0;
+    -fx-background-radius: 10px;
+    -fx-background-color: #97B2C3;
+    -fx-border-color: #626D80;
+    -fx-border-insets: -1;
+    -fx-border-width: 1.0;
+    -fx-border-radius: 10px;
+}
+
+#takeout_checkbox {
+    -fx-arc-width: 0.0;
+    -fx-arc-height: 0.0;
+    -fx-focus-traversable: false;
+    -fx-shadow-highlight-color: transparent;
+}
+
+#takeout_checkbox:hover {
+    -fx-effect: innershadow( gaussian, rgba( 0.1, 0.1, 0.1, 0.1), 10, 0, 5, 5 );
+}
+
+#takeout_checkbox:selected {
+    -fx-effect: null;
+}
+
+#takeout_checkbox .box {
+    -fx-background-color: #6CB7E6;
+}
+
+#takeout_checkbox:selected .mark {
+    -fx-background-color: #000000;
+}
+
+#vbox {
+    -fx-background-color: #6999E0;
+    -fx-alignment: CENTER;
+    -fx-spacing: 10.0;
+    -fx-padding: 20.0;
+}
+
+#err_label {
+    -fx-alignment: TOP_CENTER;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 17px;
+}

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="261E5388-2BDF-077D-5843-CA6BDC45DB3C" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="UserTokens">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>UserTokens</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:57 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserId" id="D3AEC021-AD28-811A-5718-2DF6A96CAB9B">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>UserTokens</sourceObjSchema>
+<sourceObjName>UserId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594A856A-0159-C80C-A22E-4B09CA516888" referredColumn="51691990-E592-CCBF-3E83-8617029FE697"/>
+</associations>
+</Column>
+<Column name="LoginProvider" id="31FC3381-4E32-9A21-C634-E28F238F59E1">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>UserTokens</sourceObjSchema>
+<sourceObjName>LoginProvider</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="9568E9ED-15A3-4E88-5497-8F2B5BDDB3BA">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>UserTokens</sourceObjSchema>
+<sourceObjName>Name</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Value" id="81296387-D89C-BA6F-712E-0BFDDECBD6AC">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>UserTokens</sourceObjSchema>
+<sourceObjName>Value</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9951EA07-996D-C7B1-AEDF-2A5E0B1D776B" name="PK_UserTokens">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_UserTokens</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AEC021-AD28-811A-5718-2DF6A96CAB9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55A291C5-40C2-136D-ED49-7F8490762BFC" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_UserTokens">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_UserTokens</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:07 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AEC021-AD28-811A-5718-2DF6A96CAB9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="832DB74A-FAEF-A948-7EE3-D564CF12BAD8" name="FK_UserTokens_Users_UserId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AEC021-AD28-811A-5718-2DF6A96CAB9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

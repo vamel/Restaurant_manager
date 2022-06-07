@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="579D1FB6-5A95-F6A8-C445-46DEC448B47D" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="RestaurantIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>RestaurantIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:58 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RestaurantId" id="0F2AC55D-FD44-1008-89E6-FF6A61524A3C">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>RestaurantIngredients</sourceObjSchema>
+<sourceObjName>RestaurantId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EA9F824-B226-E956-11BA-E259B1F9510D" referredColumn="818D0E90-0D9A-FF3B-7CE6-BE62F2A07CE6"/>
+</associations>
+</Column>
+<Column name="IngredientId" id="E097D0F1-4B1E-EC3B-79E5-3B6378AFBB0B">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>RestaurantIngredients</sourceObjSchema>
+<sourceObjName>IngredientId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99DD126E-79E0-6854-9648-68BDAF30F758" referredColumn="C85F21EB-E24A-6464-1DC7-48992CB00AAE"/>
+</associations>
+</Column>
+<Column name="Amount" id="EA07141A-C73C-7810-E361-41D990D7FE34">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>RestaurantIngredients</sourceObjSchema>
+<sourceObjName>Amount</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT055</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66713905-FC02-6F1D-D414-5DCAE76E03B9" name="PK_RestaurantIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_RestaurantIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2AC55D-FD44-1008-89E6-FF6A61524A3C"/>
+<colUsage columnID="E097D0F1-4B1E-EC3B-79E5-3B6378AFBB0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="255A8972-0C08-E2DE-2407-284E4D44EF47" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="IX_RestaurantIngredients_IngredientId">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>IX_RestaurantIngredients_IngredientId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E097D0F1-4B1E-EC3B-79E5-3B6378AFBB0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="605B5EDC-A617-7E1D-D12E-C6B16A40C04D" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_RestaurantIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_RestaurantIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2AC55D-FD44-1008-89E6-FF6A61524A3C"/>
+<colUsage columnID="E097D0F1-4B1E-EC3B-79E5-3B6378AFBB0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CC04E70-ECF7-F3E7-DDE4-66F18A3E9BC2" name="FK_RestaurantIngredients_Ingredients_IngredientId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E097D0F1-4B1E-EC3B-79E5-3B6378AFBB0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA48FE6-B4B5-56F2-1E06-2CB1F4E930FD" name="FK_RestaurantIngredients_Restaurants_RestaurantId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2AC55D-FD44-1008-89E6-FF6A61524A3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

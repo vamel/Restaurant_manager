@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="313.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Select ingredient the supplier offers">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Region prefHeight="16.0" prefWidth="313.0" />
+      <ChoiceBox fx:id="IngredientList" prefHeight="25.0" prefWidth="256.0" />
+      <Label fx:id="Status" text="">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label> 
+   </children>
+   <padding>
+      <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+   </padding>
+</VBox>

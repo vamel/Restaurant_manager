@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0E1E9C3-E07B-6608-A856-A2754932C990" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="DishIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>DishIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:57 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DishId" id="6E9A211C-0C79-1B97-32FF-092ADE63EBB3">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>DishIngredients</sourceObjSchema>
+<sourceObjName>DishId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82742520-EC65-8781-0EF2-A75C74334D0E" referredColumn="226BAD72-3627-1C6F-1D49-20F07940BCCD"/>
+</associations>
+</Column>
+<Column name="IngredientId" id="2172457C-EBE7-D9CC-96CA-8A2CB999E82F">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>DishIngredients</sourceObjSchema>
+<sourceObjName>IngredientId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33012D7D-ED03-052D-E104-642D92AE5B9E" referredColumn="C85F21EB-E24A-6464-1DC7-48992CB00AAE"/>
+</associations>
+</Column>
+<Column name="Amount" id="7FAAF922-20A7-57A7-BADE-04B8D249D45B">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>DishIngredients</sourceObjSchema>
+<sourceObjName>Amount</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT055</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3900B7B3-9DE9-FD68-277E-798CF8483427" name="PK_DishIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_DishIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9A211C-0C79-1B97-32FF-092ADE63EBB3"/>
+<colUsage columnID="2172457C-EBE7-D9CC-96CA-8A2CB999E82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C37B0D-9A8B-53BB-0E69-B920E4146AF2" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="IX_DishIngredients_IngredientId">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>IX_DishIngredients_IngredientId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2172457C-EBE7-D9CC-96CA-8A2CB999E82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61F97DA3-7350-67B9-4AC8-88304C536B0A" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_DishIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_DishIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9A211C-0C79-1B97-32FF-092ADE63EBB3"/>
+<colUsage columnID="2172457C-EBE7-D9CC-96CA-8A2CB999E82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73042DA1-A56C-6643-37A9-114A2E12F685" name="FK_DishIngredients_Dishes_DishId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9A211C-0C79-1B97-32FF-092ADE63EBB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF5007C6-FDDE-1BFF-DC6E-E93522AAF93D" name="FK_DishIngredients_Ingredients_IngredientId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2172457C-EBE7-D9CC-96CA-8A2CB999E82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

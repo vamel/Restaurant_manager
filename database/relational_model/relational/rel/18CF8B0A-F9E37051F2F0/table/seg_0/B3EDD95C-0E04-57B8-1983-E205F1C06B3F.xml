@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3EDD95C-0E04-57B8-1983-E205F1C06B3F" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="OrderIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>OrderIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:57 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SupplierOrderId" id="5F454C45-2EEF-6AD5-17B6-27C721C2B1FF">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>OrderIngredients</sourceObjSchema>
+<sourceObjName>SupplierOrderId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B1970BE-9F75-FF89-FB81-2B0EE9E60384" referredColumn="77973F14-B21D-392E-A70D-85677D8CA909"/>
+</associations>
+</Column>
+<Column name="IngredientId" id="9548B4DA-CD55-3DE0-FB51-A437A0B235A3">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>OrderIngredients</sourceObjSchema>
+<sourceObjName>IngredientId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54EFBD85-465A-CA04-BCD1-A8EB99EACB2A" referredColumn="C85F21EB-E24A-6464-1DC7-48992CB00AAE"/>
+</associations>
+</Column>
+<Column name="Amount" id="96D8B504-F149-B960-B80F-FCB01F13CB53">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>OrderIngredients</sourceObjSchema>
+<sourceObjName>Amount</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:52:59 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT055</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<defaultValue>TO_BINARY_FLOAT(0)</defaultValue>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC7191D-96CD-894D-C38F-899F0A00C673" name="PK_OrderIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_OrderIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F454C45-2EEF-6AD5-17B6-27C721C2B1FF"/>
+<colUsage columnID="9548B4DA-CD55-3DE0-FB51-A437A0B235A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2705DE6F-6165-0757-3460-6E6A29030B54" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="IX_OrderIngredients_IngredientId">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>IX_OrderIngredients_IngredientId</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9548B4DA-CD55-3DE0-FB51-A437A0B235A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76CB097F-D1A4-765B-2F1F-6A005A6A9496" schemaObject="57CABE83-6324-D202-8D1E-B70C82D4A5A4" name="PK_OrderIngredients">
+<sourceConnName>pap97</sourceConnName>
+<sourceObjSchema>Z97</sourceObjSchema>
+<sourceObjName>PK_OrderIngredients</sourceObjName>
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F454C45-2EEF-6AD5-17B6-27C721C2B1FF"/>
+<colUsage columnID="9548B4DA-CD55-3DE0-FB51-A437A0B235A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C644AEA3-73DF-8321-7979-072A730468B9" name="FK_OrderIngredients_Ingredients_IngredientId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9548B4DA-CD55-3DE0-FB51-A437A0B235A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="593997F7-7477-02DE-7305-9C0642BC9329" name="FK_OrderIngredients_SupplierOrders_SupplierOrderId">
+<createdBy>marcin</createdBy>
+<createdTime>2022-01-22 10:53:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F454C45-2EEF-6AD5-17B6-27C721C2B1FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

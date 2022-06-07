@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: #6999E0;
+}
+
+.label {
+    -fx-font-size: 25px;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+.text-field {
+    -fx-background-color: #69B2E0;
+    -fx-prompt-text-fill: #4F4F4F;
+    -fx-focus-traversable: false;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.button {
+    -fx-background-color: #60D66A;
+    -fx-background-radius: 0px;
+    -fx-focus-traversable: false;
+}
+
+.button:hover {
+    -fx-background-color: #5AC763;
+}
